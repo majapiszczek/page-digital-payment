@@ -1,0 +1,137 @@
+:root {
+  --dark-gray: #2a2a2a;
+  --white: #f5f3ef;
+  --green-yellow: #e0f348;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--dark-gray);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar__container {
+  position: absolute;
+  z-index: 1;
+  background-color: var(--dark-gray);
+  max-width: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  border-radius: 70px;
+  margin: 20px auto;
+}
+
+.navbar__hamburger {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__brand-name {
+  color: var(--white);
+  margin-left: 10px;
+  font-size: 19px;
+}
+
+.hero {
+  background-color: var(--green-yellow);
+  color: var(--dark-gray);
+  border-radius: 0 0 20px 20px;
+  padding: 140px 6%;
+  position: relative;
+}
+
+.hero__main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__title {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.hero__paragraph {
+  font-size: 17px;
+  margin: 30px 0;
+}
+
+.hero__highlight {
+  background: var(--dark-gray);
+  color: var(--green-yellow);
+}
+
+.hero__cards {
+  display: block;
+  margin: 50px auto;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta__button {
+  font-size: 17px;
+  padding: 20px;
+  width: 310px;
+  margin: 15px;
+  border-radius: 16px;
+  text-decoration: none;
+  border: 1px solid var(--dark-gray);
+  text-align: center;
+}
+
+.button-contact {
+  background-color: white;
+  color: var(--dark-gray);
+}
+
+.button-service {
+  background-color: var(--dark-gray);
+  color: var(--white);
+}
+
+.section {
+  color: var(--white);
+  padding: 48px 6%;
+}
+
+.section__title {
+  font-size: 24px;
+}
+
+.section__info {
+  margin: 60px 30px;
+}
+
+.section__info-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__info-title {
+  font-size: 16px;
+}
+
+.section__info-paragraph {
+  font-size: 12px;
+}
